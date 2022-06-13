@@ -1,0 +1,144 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+}
+body {
+	background: url("../IMAGES/pexels-photo-5926378.webp") no-repeat center;
+
+	background-size: cover;
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: beige;
+}
+header {
+	background-color: rgba(0, 0, 0, 0.571);
+	display: inline-block;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	padding: 1em;
+}
+a {
+	background-color: rgba(65, 59, 50, 0.189);
+	text-decoration: none;
+	border: 1px solid rgba(220, 220, 220, 0.33);
+	color: #e7eff1;
+
+	padding: 6px 8px;
+
+	border-radius: 13px;
+}
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgba(93, 91, 91, 0.479);
+	cursor: pointer;
+}
+a:active {
+	text-decoration: none;
+	background-color: #5a5e5d;
+	cursor: pointer;
+}
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: scale(80%);
+	height: 90vh;
+}
+
+.form {
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+.form-title {
+	font-size: 3rem;
+	font-weight: 600;
+	text-shadow: 4px 4px 4px rgb(167, 160, 160);
+	text-align: center;
+}
+.form-item {
+	display: flex;
+	flex-direction: column;
+}
+.form-item > * {
+	align-self: flex-start;
+}
+.form-label {
+	font-weight: 600;
+	padding: 9px 0;
+	text-shadow: 2px 2px 3px rgb(163, 158, 158);
+}
+.form-input {
+	-webkit-appearance: none;
+	width: 100%;
+	max-width: 500px;
+	max-height: 250px;
+	backdrop-filter: blur(2px);
+	padding: 0.8em;
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	outline: none;
+	border: 3px outset rgb(146, 135, 135);
+	border-radius: 9px;
+	background: rgba(0, 0, 0, 0.427);
+	color: rgb(255, 255, 255);
+	transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+textarea.form-input {
+	resize: none;
+	min-width: 500px;
+	min-height: 300px;
+}
+.form-input:focus {
+	background: rgba(0, 0, 0, 0.308);
+}
+.form-input:hover {
+	background: rgba(0, 0, 0, 0.308);
+}
+.form-input::placeholder {
+	font-size: 0.9rem;
+	color: rgb(215, 202, 202);
+}
+.form-button {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+	padding: 8px 16px;
+	margin: 9px 0 0 180px;
+	color: rgba(213, 204, 204, 0.992);
+	background: transparent;
+	border: 2px outset rgb(199, 199, 201);
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 4px 0px 7px rgb(98, 94, 94);
+}
+.form-button:hover {
+	background: rgba(224, 223, 223, 0.527);
+	color: black;
+	box-shadow: 4px 0px 7px rgb(190, 166, 166);
+	transition: 0.5s;
+}
+.form-button:active {
+	background: transparent;
+}
+footer {
+	background: rgba(0, 0, 0, 0.592);
+	backdrop-filter: blur(5px);
+	color: rgb(88, 93, 91);
+	width: 10%;
+	border-radius: 4px;
+	margin-top: -25px;
+}

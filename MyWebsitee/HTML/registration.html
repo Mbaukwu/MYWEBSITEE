@@ -1,0 +1,181 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../CSS/registration.css" />
+		<title>Registration</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<a href="../index.html">About Me</a>
+				<a href="../HTML/contact.html">Contact</a>
+				<a href="#">Registration</a>
+				<a href="../HTML/Login.html">Login</a>
+			</nav>
+		</header>
+		<main>
+			<div class="forms">
+				<form action="./">
+					<div class="form-title">REGISTRATION FORM</div>
+					<div class="title2">Personal Details</div>
+					<div class="form-fields">
+						<div class="form-item">
+							<label
+								class="form-label"
+								for="firstname"
+								id="firstname"
+								name="firstname"
+								>First Name:</label
+							><!-- forr should be the same with id -->
+							<input
+								class="form-input"
+								type="text"
+								id="firstname"
+								name="firstname"
+								required
+							/>
+						</div>
+						<div class="form-item">
+							<label
+								class="form-label"
+								for="lastname"
+								id="lastname"
+								name="lastname"
+								>Last Name:</label
+							>
+							<input
+								class="form-input"
+								type="text"
+								id="last
+						name"
+								name="lastname"
+								required
+							/>
+						</div>
+						<div class="form-item">
+							<label
+								class="form-label"
+								for="phone-number"
+								id="phone-number"
+								name="phone-number"
+								>Phone Number:</label
+							>
+							<input
+								class="form-input"
+								type="text"
+								id="phone-number"
+								name="phone-number"
+								maxlength="11"
+								required
+							/>
+						</div>
+						<div class="form-item">
+							<label class="form-label" for="gender" id="gender" name="gender"
+								>Gender:</label
+							>
+							<select class="form-input dropdown" id="gender" name="gender">
+								<div class="dropdown-content">
+									<option disabled selected class="dropdown" value="choose">
+										Choose....
+									</option>
+									<option class="dropdown" value="Female">Female</option>
+									<option class="dropdown" value="male">Male</option>
+									<option class="dropdown" value="others">Others</option>
+									<option class="dropdown" value="Prefer not to say">
+										Prefer not to say
+									</option>
+								</div>
+							</select>
+						</div>
+						<div class="form-item">
+							<label
+								class="form-label"
+								for="country"
+								id="country"
+								name="country"
+								>Country:</label
+							>
+							<input
+								class="form-input"
+								type="text"
+								id="country"
+								name="country"
+								required
+							/>
+						</div>
+						<div class="form-item">
+							<label class="form-label" for="state" id="state" name="state"
+								>State/Province:</label
+							>
+							<input
+								class="form-input"
+								type="text"
+								id="state"
+								name="state"
+								required
+							/>
+						</div>
+						<div class="form-item">
+							<label class="form-label" for="email" id="email" name="email"
+								>Email:</label
+							>
+							<input
+								class="form-input"
+								type="email"
+								id="email"
+								name="email"
+								required
+							/>
+						</div>
+						<div class="form-item">
+							<label
+								class="form-label"
+								for="password"
+								id="password"
+								name="password"
+								>Password:</label
+							>
+							<input
+								class="form-input"
+								type="password"
+								id="password"
+								name="password"
+								maxlength="8"
+								required
+							/>
+						</div>
+						<div class="form-item">
+							<label
+								class="form-label"
+								for="confirm"
+								id="confirm"
+								name="confirm"
+							>
+								Confirm Password:</label
+							>
+							<input
+								class="form-input"
+								type="password"
+								id="confirm"
+								name="confirm"
+								maxlength="8"
+								required
+							/>
+						</div>
+					</div>
+					<div>
+						<button type="submit" action="./" class="form-button"><a  class="form-link"href="../HTML/Login.html">
+							REGISTER</a>
+						</button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer>&copyArmani2022</footer>
+	</body>
+</html>
